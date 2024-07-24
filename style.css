@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 41, 55);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24PX; 
+    margin-right: auto;
+  }
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 12px;
+}
+.nav-bar li{
+    padding: 0 10px;
+    font-size: 18px;
+}
+.nav-bar a{
+text-decoration: none;
+color: #E5E7EB;
+}
+.nav-bar a:hover{
+color: #3882F6;
+}
+.intro{
+display: flex;
+justify-content: space-between;
+margin: 32px 42px;
+padding-bottom: 16px;
+}
+.web-info-title{
+color:#F9FAF8;
+font-size: 32px;    
+}
+.web-info-content{
+color: #E5E7EB; 
+font-size: 16px;
+}
+.sign-up{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border: none;
+    margin-top: 8px;
+    padding: 4px 12px;
+    font-size: x-small;
+}
+.RecipeWiz-hero-img{
+    padding-left: 18px;
+}
+.content{
+background-color: #F9FAF8;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.food-img-title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 18px 0px;
+}
+.food-img-holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin-bottom: 50px;
+}
+.food-info-wrapper p{
+    color: #1F2937;
+    font-weight: lighter;
+}
+.food-img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.testimonials{
+background: #E5E7EB;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 42px 54px;
+}
+.quote{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.writer{
+  color: #1F2937;
+  font-size: 14px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.action-call-wrapper{
+background-color: #F9FAF8;
+display: flex;
+justify-content: center;
+}
+.action-call{
+    background-color: #3882F6;
+    margin: 38px 36px;
+    padding: 28px 54px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.action-call-title{
+    color:#F9FAF8;
+    font-weight: bold;
+}
+.action-call-body{
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+.action-call-wrapper .sign-up{
+border: 1px solid #F9FAF8;
+padding: 4px 12px;
+}
+footer{
+   color: #E5E7EB;
+   font-weight: lighter;
+   font-size: x-small; 
+   display: flex;
+   justify-content: center;
+   padding: 16px;
+}
